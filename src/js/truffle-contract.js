@@ -488,11 +488,13 @@ var contract = (function(module) {
 
         self.web3.version.getNetwork(function(err, result) {
           if (err) return reject(err);
-
-          var network_id = parseInt(result, 16)
-          if (network_id.toString() != result) {
-              network_id = parseInt(result)
+          console.log(result)
+          var network_id = parseInt(result, 10) // parse as decimal
+          console.log(network_id)
+          if (network_id.toString() !== result) { // if it round trips as the same value, it was decimal
+            network_id = parseInt(result, 16) // parse as hex
           }
+          console.log(network_id)
 
           // If we found the network via a number, let's use that.
           if (self.hasNetwork(network_id)) {

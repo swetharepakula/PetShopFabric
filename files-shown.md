@@ -1,5 +1,14 @@
 # Script
 
+
+## stage 1 - do it with geth
+
+start up geth, dev mode with instant commit, rpc available on 5000 to match fab3
+geth --dev --rpc --rpccorsdomain "*" --rpcport 5000
+
+
+
+## stage 2 - do it with fabric
 running fabric
 docker peer logs
 eth logs? 
