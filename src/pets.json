@@ -10,9 +10,9 @@
   {
     "id": 1,
     "name": "Gina",
-    "picture": "images/scottish-terrier.jpeg",
+    "picture": "images/corgi.jpeg",
     "age": 3,
-    "breed": "Scottish Terrier",
+    "breed": "Corgi",
     "location": "Tooleville, West Virginia"
   },
   {
@@ -34,9 +34,9 @@
   {
     "id": 4,
     "name": "Jeanine",
-    "picture": "images/french-bulldog.jpeg",
+    "picture": "images/corgi.jpeg",
     "age": 2,
-    "breed": "French Bulldog",
+    "breed": "Corgi",
     "location": "Gerber, South Dakota"
   },
   {
@@ -82,9 +82,9 @@
   {
     "id": 10,
     "name": "Leonor",
-    "picture": "images/boxer.jpeg",
+    "picture": "images/corgi.jpeg",
     "age": 2,
-    "breed": "Boxer",
+    "breed": "Corgi",
     "location": "Tyhee, Indiana"
   },
   {
